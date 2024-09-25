@@ -1,0 +1,123 @@
+body {
+    background-color: #f5f5dc;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5dc;
+}
+
+header {
+    background-color: rgb(17, 100, 73);
+    border-radius: 10px;
+}
+
+#logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav-link li{
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
+
+.nav-link li a{
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link li a:hover {
+    font-size: 18px;
+    color: #f5f5dc;
+}
+
+section {
+    display: flex;
+    margin-top: 3vw;
+    background-color: rgb(17, 100, 73);
+    border-radius: 10px;
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#sobre {
+    background-color: #f5f5dc;
+    height: 60vh;
+}
+
+#sobre a{
+    font-size: xx-large;
+    transition: all 0.3s ease-out;
+}
+
+#sobre a:hover {
+    color: rgb(17, 100, 73);
+    font-size: 40px;
+}
+
+#sobre img{
+    border-radius: 100%;
+    width: 50%;
+}
+
+#proj a{
+    font-size: xx-large;
+    transition: 0.3s;
+    margin: 50px;
+}
+
+#proj a:hover {
+    color: #f5f5dc;
+    font-size: 40px;
+}
+
+#up {
+    font-size: xx-large;
+    position: absolute;
+    right: 30px;
+}
+
+
+#absolute {
+    position: absolute;
+    bottom: 60px;
+    right: 120px;
+}
+
+#botoes-acao{
+    position: fixed;
+    width: 120px;
+}
+
+#botoes-acao a{
+    transition: 0.3s;
+}
+
+#botoes-acao a:hover {
+    color: white;
+}
