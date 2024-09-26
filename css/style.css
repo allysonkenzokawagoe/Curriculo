@@ -121,3 +121,13 @@ section {
 #botoes-acao a:hover {
     color: white;
 }
+
+@media (max-width: 600px) {
+    header {
+        height: 15%;
+    }
+
+    .nav-link{
+        margin-top: 10px;
+    }
+}
