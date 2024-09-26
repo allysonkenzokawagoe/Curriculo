@@ -124,10 +124,6 @@ section {
 
 @media (max-width: 500px) {
     header {
-        height: 15%;
-    }
-
-    .nav-link{
-        margin-top: 10px;
+        height: 20%;
     }
 }
