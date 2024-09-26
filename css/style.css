@@ -127,6 +127,11 @@ section {
         height: 25%;
     }
 
+    #logo {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
     .nav {
         margin-top: 101px;
     }
